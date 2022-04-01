@@ -47,18 +47,22 @@ footer {
 /* ================================== */
 /* Layout page CSS */
 /* ================================== */
-
 .tile {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0.75em;
 }
 .tile img {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+  height: 100%;
 }
 .tile img:hover {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
+  
 }
 
 /* Hint: Notice the position:absolute and z-index properties. */

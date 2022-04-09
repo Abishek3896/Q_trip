@@ -110,8 +110,6 @@ url("../assets/hero.jpg");
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -121,8 +119,10 @@ url("../assets/hero.jpg");
 }
 .adventure-card-body {
   width: 100%;
+  height: 6rem;
   padding: 1rem 1rem;
   display: flex;
+  word-wrap: break-word;
   flex-direction: column;
   align-items: center;
 
@@ -131,7 +131,6 @@ url("../assets/hero.jpg");
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
   width:100%;
-  height:100%;
   object-fit: cover;
   transition: all 0.2s;
 }
@@ -149,16 +148,25 @@ url("../assets/hero.jpg");
 .adventure-detail-card {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
-
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  object-fit: cover;
+  width: 100%;
+  transition: all 0.2s;
 }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  filter: brightness(50%);
+  transform: scale(1.1);
 }
 .experience-content ul li {
   margin-left: 16px;
